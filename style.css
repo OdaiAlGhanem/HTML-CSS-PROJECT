@@ -350,6 +350,57 @@ h2 {
     }
 }
 
+@media only screen and (min-device-width: 769px ) and (max-device-width: 1024px ) {
+    .card1 {
+        height: 200px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .card img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .decskills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maindiv1 img {
+        height: 300px;
+
+    }
+
+    .secexp1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 2000px;
+        width: 100%;
+
+    }
+
+    .secref1 {
+        height: 1000px;
+    }
+
+    .secref div {
+
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .secref1 div {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+
 @media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
     .card1 {
         height: 200px;
