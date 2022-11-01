@@ -49,7 +49,6 @@ h2 {
 
 .maindiv1 img {
     height: 600px;
-    margin-left: 200px;
 }
 
 .maindiv2 {
@@ -87,7 +86,7 @@ h2 {
     grid-template-columns: auto auto;
     width: 100%;
     margin-top: 100px;
-    height: 680px;
+
     background-color: #f5f6f8;
     box-shadow: 0px 0px 18px black;
 }
@@ -205,13 +204,14 @@ h2 {
 .card {
     width: 400px;
     height: 600px;
+    justify-content: center;
     margin: 15px;
-    margin-top: 40px;
+
 }
 
 .card img {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 /*--------------------------------------------*/
@@ -229,14 +229,16 @@ h2 {
     text-align: center;
     height: 600px;
     display: grid;
-  
+
     grid-template-columns: auto auto auto auto;
     background-color: darkgray;
 }
-.secref1 a{
+
+.secref1 a {
     text-decoration: none;
     color: #f5f6f8;
 }
+
 .secref1 img {
     height: 300px;
     border-radius: 50px;
@@ -245,12 +247,12 @@ h2 {
 }
 
 .secfooter {
-   
+
     display: grid;
     grid-template-columns: auto auto auto;
     height: 200px;
     background-image: url(image/background\ main.webp);
-   
+
 }
 
 .secfootericon {
@@ -276,7 +278,7 @@ h2 {
 .footerlist {
     text-align: center;
     margin-top: 20px;
-  
+
 }
 
 .text-uppercase {
@@ -287,25 +289,164 @@ h2 {
     display: grid;
     color: #f5f6f8;
     text-align: center;
- 
+
 }
-.footerloc 
-{
+
+.footerloc {
     margin-top: 20px;
     text-align: center;
     justify-content: end;
     color: #f5f6f8;
 }
 
-@media only screen and (min-device-width: 769px) and (max-device-width: 1279px) {}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-    .maindiv
-    {
-        width: 100%;
-        height: 400px;
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .card1 {
+        height: 200px;
     }
-    
+
+    .card {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .card img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .decskills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maindiv1 img {
+        height: 300px;
+
+    }
+
+    .secexp1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 2000px;
+        width: 100%;
+
+    }
+
+    .secref1 {
+        height: 1000px;
+    }
+
+    .secref div {
+
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .secref1 div {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
 }
 
-@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {}
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+    .card1 {
+        height: 200px;
+    }
+
+    .secfooter {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 400px;
+        font-size: 10px;
+    }
+
+    .secfooter icon {
+        font-size: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0;
+        height: 400px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .card img {
+        height: 200px;
+        width: 80%;
+    }
+
+    .maindiv2 h1 {
+        font-size: 30px;
+    }
+
+    .maindiv2 h2 {
+        font-size: 20px;
+    }
+
+    .decskills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maindiv1 img {
+        height: 300px;
+
+    }
+
+    .secedu1 {
+        grid-template-columns: auto;
+        font-size: small;
+    }
+
+    .maindiv11 {
+        grid-template-columns: auto;
+    }
+
+    .maindiv {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .secedu {
+        height: 1200px;
+    }
+
+    .secexp1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 1200px;
+        width: 100%;
+
+    }
+
+    .secedu1-2 img {
+        width: 100%;
+    }
+
+    .secref1 {
+        height: 2000px;
+    }
+
+    .secref div {
+
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .secref1 div {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .navbar-brand img {
+        margin: 0px;
+    }
+}
